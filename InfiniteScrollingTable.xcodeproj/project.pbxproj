@@ -8,20 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		82F7984D2234CC81008ADE90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7984C2234CC81008ADE90 /* AppDelegate.swift */; };
-		82F7984F2234CC81008ADE90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7984E2234CC81008ADE90 /* ViewController.swift */; };
 		82F798522234CC81008ADE90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F798502234CC81008ADE90 /* Main.storyboard */; };
 		82F798542234CC83008ADE90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F798532234CC83008ADE90 /* Assets.xcassets */; };
 		82F798572234CC83008ADE90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F798552234CC83008ADE90 /* LaunchScreen.storyboard */; };
+		82F798602234D104008ADE90 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 82F7985F2234D104008ADE90 /* .gitignore */; };
+		82F798642234D1BF008ADE90 /* TableScreenViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F798632234D1BF008ADE90 /* TableScreenViewProtocol.swift */; };
+		82F798662234D1D6008ADE90 /* TableScreenPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F798652234D1D6008ADE90 /* TableScreenPresenterProtocol.swift */; };
+		82F798682234D1E5008ADE90 /* TableScreenInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F798672234D1E5008ADE90 /* TableScreenInteractorProtocol.swift */; };
+		82F7986A2234D1F4008ADE90 /* TableScreenWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F798692234D1F4008ADE90 /* TableScreenWireframeProtocol.swift */; };
+		82F7986C2234D202008ADE90 /* TableScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7986B2234D202008ADE90 /* TableScreenView.swift */; };
+		82F7986E2234D20D008ADE90 /* TableScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7986D2234D20D008ADE90 /* TableScreenPresenter.swift */; };
+		82F798702234D21C008ADE90 /* TableScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7986F2234D21C008ADE90 /* TableScreenInteractor.swift */; };
+		82F798722234D228008ADE90 /* TableScreenWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F798712234D228008ADE90 /* TableScreenWireframe.swift */; };
+		82FDB0502235EFA000296D6C /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB04F2235EFA000296D6C /* TableCell.swift */; };
+		82FDB0522235F35F00296D6C /* Moderator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB0512235F35F00296D6C /* Moderator.swift */; };
+		82FDB0562235F60200296D6C /* TableCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB0552235F60200296D6C /* TableCellProtocol.swift */; };
+		82FDB05C2236126100296D6C /* ModeratorsFetchClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB05B2236126100296D6C /* ModeratorsFetchClient.swift */; };
+		82FDB05E223612FF00296D6C /* ModeratorsFetchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB05D223612FF00296D6C /* ModeratorsFetchResponse.swift */; };
+		82FDB06022361D8900296D6C /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB05F22361D8900296D6C /* ResponseError.swift */; };
+		DB9E54523AA0242F32B06C5A /* Pods_InfiniteScrollingTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD82D58D3C99C04A2FF646D2 /* Pods_InfiniteScrollingTable.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		82F798492234CC81008ADE90 /* InfiniteScrollingTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteScrollingTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F7984C2234CC81008ADE90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82F7984E2234CC81008ADE90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		82F798512234CC81008ADE90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82F798532234CC83008ADE90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82F798562234CC83008ADE90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82F798582234CC83008ADE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F7985F2234D104008ADE90 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		82F798632234D1BF008ADE90 /* TableScreenViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScreenViewProtocol.swift; sourceTree = "<group>"; };
+		82F798652234D1D6008ADE90 /* TableScreenPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScreenPresenterProtocol.swift; sourceTree = "<group>"; };
+		82F798672234D1E5008ADE90 /* TableScreenInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScreenInteractorProtocol.swift; sourceTree = "<group>"; };
+		82F798692234D1F4008ADE90 /* TableScreenWireframeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScreenWireframeProtocol.swift; sourceTree = "<group>"; };
+		82F7986B2234D202008ADE90 /* TableScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScreenView.swift; sourceTree = "<group>"; };
+		82F7986D2234D20D008ADE90 /* TableScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScreenPresenter.swift; sourceTree = "<group>"; };
+		82F7986F2234D21C008ADE90 /* TableScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScreenInteractor.swift; sourceTree = "<group>"; };
+		82F798712234D228008ADE90 /* TableScreenWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScreenWireframe.swift; sourceTree = "<group>"; };
+		82FDB04F2235EFA000296D6C /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		82FDB0512235F35F00296D6C /* Moderator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moderator.swift; sourceTree = "<group>"; };
+		82FDB0552235F60200296D6C /* TableCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellProtocol.swift; sourceTree = "<group>"; };
+		82FDB05B2236126100296D6C /* ModeratorsFetchClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeratorsFetchClient.swift; sourceTree = "<group>"; };
+		82FDB05D223612FF00296D6C /* ModeratorsFetchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeratorsFetchResponse.swift; sourceTree = "<group>"; };
+		82FDB05F22361D8900296D6C /* ResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
+		93770D257BC6224798D3D142 /* Pods-InfiniteScrollingTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfiniteScrollingTable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfiniteScrollingTable/Pods-InfiniteScrollingTable.debug.xcconfig"; sourceTree = "<group>"; };
+		C729E4A69E467F8025DD50BC /* Pods-InfiniteScrollingTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfiniteScrollingTable.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfiniteScrollingTable/Pods-InfiniteScrollingTable.release.xcconfig"; sourceTree = "<group>"; };
+		CD82D58D3C99C04A2FF646D2 /* Pods_InfiniteScrollingTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfiniteScrollingTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB9E54523AA0242F32B06C5A /* Pods_InfiniteScrollingTable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +71,11 @@
 		82F798402234CC81008ADE90 = {
 			isa = PBXGroup;
 			children = (
+				82F7985F2234D104008ADE90 /* .gitignore */,
 				82F7984B2234CC81008ADE90 /* InfiniteScrollingTable */,
 				82F7984A2234CC81008ADE90 /* Products */,
+				85D7B2784C93F955ACE5655A /* Pods */,
+				DFEEF449D029C79F097EADD1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +91,83 @@
 			isa = PBXGroup;
 			children = (
 				82F7984C2234CC81008ADE90 /* AppDelegate.swift */,
-				82F7984E2234CC81008ADE90 /* ViewController.swift */,
+				82F798612234D157008ADE90 /* Modules */,
+				82F798752234D82A008ADE90 /* Networking */,
+				82FDB0532235F3B300296D6C /* Models */,
 				82F798502234CC81008ADE90 /* Main.storyboard */,
 				82F798532234CC83008ADE90 /* Assets.xcassets */,
 				82F798552234CC83008ADE90 /* LaunchScreen.storyboard */,
 				82F798582234CC83008ADE90 /* Info.plist */,
 			);
 			path = InfiniteScrollingTable;
+			sourceTree = "<group>";
+		};
+		82F798612234D157008ADE90 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				82F798622234D16D008ADE90 /* TableScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		82F798622234D16D008ADE90 /* TableScreen */ = {
+			isa = PBXGroup;
+			children = (
+				82FDB04E2235EF8200296D6C /* Subviews */,
+				82F798632234D1BF008ADE90 /* TableScreenViewProtocol.swift */,
+				82F798652234D1D6008ADE90 /* TableScreenPresenterProtocol.swift */,
+				82F798672234D1E5008ADE90 /* TableScreenInteractorProtocol.swift */,
+				82F798692234D1F4008ADE90 /* TableScreenWireframeProtocol.swift */,
+				82F7986B2234D202008ADE90 /* TableScreenView.swift */,
+				82F7986D2234D20D008ADE90 /* TableScreenPresenter.swift */,
+				82F7986F2234D21C008ADE90 /* TableScreenInteractor.swift */,
+				82F798712234D228008ADE90 /* TableScreenWireframe.swift */,
+			);
+			path = TableScreen;
+			sourceTree = "<group>";
+		};
+		82F798752234D82A008ADE90 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				82FDB05F22361D8900296D6C /* ResponseError.swift */,
+				82FDB05B2236126100296D6C /* ModeratorsFetchClient.swift */,
+				82FDB05D223612FF00296D6C /* ModeratorsFetchResponse.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		82FDB04E2235EF8200296D6C /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				82FDB0552235F60200296D6C /* TableCellProtocol.swift */,
+				82FDB04F2235EFA000296D6C /* TableCell.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		82FDB0532235F3B300296D6C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				82FDB0512235F35F00296D6C /* Moderator.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		85D7B2784C93F955ACE5655A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93770D257BC6224798D3D142 /* Pods-InfiniteScrollingTable.debug.xcconfig */,
+				C729E4A69E467F8025DD50BC /* Pods-InfiniteScrollingTable.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFEEF449D029C79F097EADD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD82D58D3C99C04A2FF646D2 /* Pods_InfiniteScrollingTable.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82F7985B2234CC83008ADE90 /* Build configuration list for PBXNativeTarget "InfiniteScrollingTable" */;
 			buildPhases = (
+				42681CAB71B86F55E6903188 /* [CP] Check Pods Manifest.lock */,
 				82F798452234CC81008ADE90 /* Sources */,
 				82F798462234CC81008ADE90 /* Frameworks */,
 				82F798472234CC81008ADE90 /* Resources */,
+				004D366A45A39CD5B6FC9083 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F798602234D104008ADE90 /* .gitignore in Resources */,
 				82F798572234CC83008ADE90 /* LaunchScreen.storyboard in Resources */,
 				82F798542234CC83008ADE90 /* Assets.xcassets in Resources */,
 				82F798522234CC81008ADE90 /* Main.storyboard in Resources */,
@@ -130,13 +239,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		004D366A45A39CD5B6FC9083 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InfiniteScrollingTable/Pods-InfiniteScrollingTable-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfiniteScrollingTable/Pods-InfiniteScrollingTable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42681CAB71B86F55E6903188 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfiniteScrollingTable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		82F798452234CC81008ADE90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82F7984F2234CC81008ADE90 /* ViewController.swift in Sources */,
+				82FDB0562235F60200296D6C /* TableCellProtocol.swift in Sources */,
+				82FDB0502235EFA000296D6C /* TableCell.swift in Sources */,
+				82F7986E2234D20D008ADE90 /* TableScreenPresenter.swift in Sources */,
+				82F798702234D21C008ADE90 /* TableScreenInteractor.swift in Sources */,
+				82F798662234D1D6008ADE90 /* TableScreenPresenterProtocol.swift in Sources */,
 				82F7984D2234CC81008ADE90 /* AppDelegate.swift in Sources */,
+				82FDB05C2236126100296D6C /* ModeratorsFetchClient.swift in Sources */,
+				82F798722234D228008ADE90 /* TableScreenWireframe.swift in Sources */,
+				82F798642234D1BF008ADE90 /* TableScreenViewProtocol.swift in Sources */,
+				82F7986C2234D202008ADE90 /* TableScreenView.swift in Sources */,
+				82FDB0522235F35F00296D6C /* Moderator.swift in Sources */,
+				82F798682234D1E5008ADE90 /* TableScreenInteractorProtocol.swift in Sources */,
+				82FDB06022361D8900296D6C /* ResponseError.swift in Sources */,
+				82F7986A2234D1F4008ADE90 /* TableScreenWireframeProtocol.swift in Sources */,
+				82FDB05E223612FF00296D6C /* ModeratorsFetchResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +463,7 @@
 		};
 		82F7985C2234CC83008ADE90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93770D257BC6224798D3D142 /* Pods-InfiniteScrollingTable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +482,7 @@
 		};
 		82F7985D2234CC83008ADE90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C729E4A69E467F8025DD50BC /* Pods-InfiniteScrollingTable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
